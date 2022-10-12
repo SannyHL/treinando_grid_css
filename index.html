@@ -8,13 +8,29 @@
     <link href="./assets/css/normalize.css" rel="stylesheet">
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/destaques.css">
-    <link rel="stylesheet" href="./assets/css/populares.css">
+    <link href="./assets/css/destaques.css" rel="stylesheet">
+    <link href="./assets/css/populares.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/responsivo.css" rel="stylesheet">
     <script src="./assets/js/fontawesome.all.min.js" defer></script>
 
 </head>
 <body class="app">
-    <header class="cabecalho"></header>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link ativo" href="#">
+                        <i class="fas fa-home"></i>
+                        Início
+                    </a>
+                    <a class="menu__link" href="#">
+                        Fotos animais
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="conteudo">
         <section class="destaques">
             <div class="destaques__principal caixa">
@@ -81,10 +97,9 @@
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
                                 <h5 class="populares__card___titulo">Slack</h5>
-                                <time class="populares__card___data" datetime="2013-08-01">08/2013</time>
                             </div>
                             <div class="populares__card___descricao">
-                                Traduzido do inglês-O Slack é um conjunto baseado em nuvem de ferramentas e serviços proprietários de colaboração em equipe, fundado por Stewart Butterfield. O Slack começou como uma ferramenta interna usada por sua empresa, Tiny Speck, no desenvolvimento do Glitch, um jogo online agora extinto.
+                                Cachorro
                             </div>
                         </div>
                     </div>
@@ -92,11 +107,10 @@
                         <img class="populares__card___imagem" src="./assets/img/dolphin.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Whatsapp</h5>
-                                <time class="populares__card___data" datetime="20090-01-01">2009</time>
+                                <h5 class="populares__card___titulo">Golfinho</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones. Além de mensagens de texto, os usuários podem enviar imagens, vídeos e documentos em PDF, além de fazer ligações grátis por meio de uma conexão com a internet.
+                                Golfinho
                             </div>
                         </div>
                     </div>
@@ -104,11 +118,10 @@
                         <img class="populares__card___imagem" src="./assets/img/elephant.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Telegram</h5>
-                                <time class="populares__card___data" datetime="2013-08-14">14/08/2013</time>
+                                <h5 class="populares__card___titulo">Elefante</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                O Telegram é um serviço de mensagens instantâneas baseado na nuvem. O Telegram está disponível para smartphones ou tablets, computadores e também como Aplicação web. Os usuários podem enviar mensagens e trocar fotos, vídeos, stickers e arquivos de qualquer tipo.
+                                Elefante
                             </div>
                         </div>
                     </div>
@@ -116,11 +129,10 @@
                         <img class="populares__card___imagem" src="./assets/img/fox.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Trello</h5>
-                                <time class="populares__card___data" datetime="2011-01-01">2011</time>
+                                <h5 class="populares__card___titulo">Raposa</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente feito por Fog Creek Software em 2011. Em 2014 tornou-se uma empresa. Ele opera um modelo de negócio Freemium, no qual é disponibilizado a versão gratuita ou paga para o usuário.
+                                Raposa
                             </div>
                         </div>
                     </div>
@@ -128,11 +140,10 @@
                         <img class="populares__card___imagem" src="./assets/img/iceland.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Skype</h5>
-                                <time class="populares__card___data" datetime="2003-08-01">08/2003</time>
+                                <h5 class="populares__card___titulo">Lobo</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Skype é um software que permite comunicação pela Internet através de conexões de voz e vídeo, criado por Janus Friis e Niklas Zennstrom. O Skype foi lançado no ano de 2003. Em 2005 foi vendido para a empresa eBay e pertence, desde maio de 2011, à Microsoft.
+                                Lobo
                             </div>
                         </div>
                     </div>
@@ -143,7 +154,7 @@
                     <div class="populares__cabecalho">
                         <h4 class="populares__titulo">
                             <i class="populares__icone fas fa-list-ol"></i>
-                            Jogos populares
+                            Animais
                         </h4>
                         <button class="populares__botao">
                             <i class="fas fa-th"></i>
@@ -156,11 +167,10 @@
                         <img class="populares__card___imagem" src="./assets/img/ladybugs.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Fornite</h5>
-                                <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                                <h5 class="populares__card___titulo">Joaninha</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Fortnite é um jogo eletrônico online criado em 2017, desenvolvido pela Epic Games, e lançado como diferentes pacotes de software com diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                                Joaninha
                             </div>
                         </div>
                     </div>
@@ -168,11 +178,10 @@
                         <img class="populares__card___imagem" src="./assets/img/rabbit.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">PUBG</h5>
-                                <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
+                                <h5 class="populares__card___titulo">Coelho</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                PlayerUnknown's Battlegrounds, ou somente Battlegrounds, é um jogo eletrônico multiplayer desenvolvido pela PUBG Corp., subsidiária da produtora coreana Bluehole, utilizando o motor de jogo Unreal Engine 4
+                                Coelho
                             </div>
                         </div>
                     </div>
@@ -180,11 +189,10 @@
                         <img class="populares__card___imagem" src="./assets/img/sea.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">CS: GO</h5>
-                                <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                                <h5 class="populares__card___titulo">Tartaruga</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.
+                                Tartaruga
                             </div>
                         </div>
                     </div>
@@ -192,11 +200,10 @@
                         <img class="populares__card___imagem" src="./assets/img/dog.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">League of Legends</h5>
-                                <time class="populares__card___data" datetime="2009-10-27">27/10/2009</time>
+                                <h5 class="populares__card___titulo">Cachorro</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                League of Legends é um jogo eletrônico do gênero multiplayer online battle arena, desenvolvido e publicado pela Riot Games para Microsoft Windows e Mac OS X. É um jogo gratuito para jogar e inspirado no modo Defense of the Ancients de Warcraft III: The Frozen Throne.
+                                Cachorro
                             </div>
                         </div>
                     </div>
@@ -204,11 +211,10 @@
                         <img class="populares__card___imagem" src="./assets/img/dolphin.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Grand Theft Auto V</h5>
-                                <time class="populares__card___data" datetime="2013-09-17">17/09/2013</time>
+                                <h5 class="populares__card___titulo">Golfinho</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.
+                                Golfinho
                             </div>
                         </div>
                     </div>
@@ -232,11 +238,10 @@
                         <img class="populares__card___imagem" src="./assets/img/elephant.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Fornite</h5>
-                                <time class="populares__card___data" datetime="2017-07-25">25/07/2017</time>
+                                <h5 class="populares__card___titulo">Elefante</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Fortnite é um jogo eletrônico online criado em 2017, desenvolvido pela Epic Games, e lançado como diferentes pacotes de software com diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                                Elefante
                             </div>
                         </div>
                     </div>
@@ -244,11 +249,10 @@
                         <img class="populares__card___imagem" src="./assets/img/fox.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">PUBG</h5>
-                                <time class="populares__card___data" datetime="2017-03-23">23/03/2017</time>
+                                <h5 class="populares__card___titulo">Raposa</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                PlayerUnknown's Battlegrounds, ou somente Battlegrounds, é um jogo eletrônico multiplayer desenvolvido pela PUBG Corp., subsidiária da produtora coreana Bluehole, utilizando o motor de jogo Unreal Engine 4
+                                Raposa
                             </div>
                         </div>
                     </div>
@@ -256,11 +260,10 @@
                         <img class="populares__card___imagem" src="./assets/img/iceland.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Slack</h5>
-                                <time class="populares__card___data" datetime="2013-08-01">08/2013</time>
+                                <h5 class="populares__card___titulo">Lobo</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Traduzido do inglês-O Slack é um conjunto baseado em nuvem de ferramentas e serviços proprietários de colaboração em equipe, fundado por Stewart Butterfield. O Slack começou como uma ferramenta interna usada por sua empresa, Tiny Speck, no desenvolvimento do Glitch, um jogo online agora extinto.
+                                Lobo
                             </div>
                         </div>
                     </div>
@@ -268,11 +271,10 @@
                         <img class="populares__card___imagem" src="./assets/img/ladybugs.jpg">
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Whatsapp</h5>
-                                <time class="populares__card___data" datetime="20090-01-01">2009</time>
+                                <h5 class="populares__card___titulo">Joaninha</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones. Além de mensagens de texto, os usuários podem enviar imagens, vídeos e documentos em PDF, além de fazer ligações grátis por meio de uma conexão com a internet.
+                                Joaninha
                             </div>
                         </div>
                     </div>
@@ -280,11 +282,10 @@
                         <img class="populares__card___imagem" src="./assets/img/rabbit.jpg"> 
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">CS: GO</h5>
-                                <time class="populares__card___data" datetime="2012-08-21">21/08/2012</time>
+                                <h5 class="populares__card___titulo">Coelho</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Counter-Strike: Global Offensive é um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.
+                                Coelho
                             </div>
                         </div>
                     </div>
@@ -308,11 +309,10 @@
                         <img class="populares__card___imagem" src="./assets/img/dog.jpg"> 
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Brawl Stars</h5>
-                                <time class="populares__card___data" datetime="2017-06-15">15/06/2017</time>
+                                <h5 class="populares__card___titulo">Cachorro</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Traduzido do inglês-Brawl Stars é um jogo multiplayer de arena e jogos de luta livre, desenvolvido e publicado pela Supercell. Em 14 de junho de 2017, a Supercell anunciou o jogo por meio de um vídeo de transmissão ao vivo no YouTube.
+                                Cachorro
                             </div>
                         </div>
                     </div>
@@ -320,11 +320,10 @@
                         <img class="populares__card___imagem" src="./assets/img/dolphin.jpg"> 
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Organizze</h5>
-                                <time class="populares__card___data" datetime="">Não definida</time>
+                                <h5 class="populares__card___titulo">Golfinho</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Usado por mais de 1 milhão de pessoas, o Organizze é uma ferramenta online que vai facilitar sua vida financeira.  
+                                Golfinho
                             </div>
                         </div>
                     </div>
@@ -332,11 +331,10 @@
                         <img class="populares__card___imagem" src="./assets/img/elephant.jpg"> 
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Onefootball</h5>
-                                <time class="populares__card___data" datetime="2008-01-01">2008</time>
+                                <h5 class="populares__card___titulo">Elefante</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Onefootball é a melhor plataforma para os fãs de futebol de todo o mundo. Das notícias às pontuações e estatísticas - Contamos as histórias de futebol do mundo, trazidas a você por mais de 150 entusiastas do coração de Berlim!
+                                Elefante
                             </div>
                         </div>
                     </div>
@@ -344,11 +342,10 @@
                         <img class="populares__card___imagem" src="./assets/img/fox.jpg"> 
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Free Fire</h5>
-                                <time class="populares__card___data" datetime="2017-11-01">01/11/2017</time>
+                                <h5 class="populares__card___titulo">Raposa</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Garena Free Fire é um jogo eletrônico mobile de ação-aventura do gênero battle royale, desenvolvido pela 111dots Studio e publicado pela Garena. O jogo obteve um beta aberto em novembro de 2017 e foi lançado oficialmente para Android e iOS em 4 de dezembro de 2017.
+                                Raposa
                             </div>
                         </div>
                     </div>
@@ -356,11 +353,10 @@
                         <img class="populares__card___imagem" src="./assets/img/iceland.jpg"> 
                         <div class="populares__card___corpo">
                             <div class="populares__card___cabecalho">
-                                <h5 class="populares__card___titulo">Super Mario Racing</h5>
-                                <time class="populares__card___data" datetime="">Não definida</time>
+                                <h5 class="populares__card___titulo">Lobo</h5>
                             </div>
                             <div class="populares__card___descricao">
-                                Jogo Super Mario Racing. Escolha seu personagem preferido do Universo do Super Mario e depois é só acelerar!
+                                Lobo
                             </div>
                         </div>
                     </div>
@@ -368,6 +364,6 @@
             </div>
         </section>
     </main>
-    <footer class="rodape"></footer>
+    <footer class="rodape">Todos os dieitos reservados &copy;2022</footer>
 </body>
 </html>
